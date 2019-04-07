@@ -1,8 +1,9 @@
 body{
     font-family: 'Open Sans Condensed', sans-serif;
-    margin: 15px;
+    margin: 35px;
     /*background-color: blue;*/
     font-size: 13pt;
+    min-width: 300px;
 }
 #container{
     min-width: 100%;
@@ -17,7 +18,6 @@ body{
     /*background-color: aquamarine;*/
     float: left;
     font-family: 'Open Sans Condensed', sans-serif;
-
 }
 
 
@@ -28,13 +28,13 @@ body{
     float:right;
 }
 .content{
-    font-family: "Myriad Pro";
+
     min-height: 100%;
     margin-left: 3%;
     margin-right: 3%;
 }
 #footer{
-    font-family: "Myriad Pro";
+
     /*width: 100px;*/
     /*height:100%;*/
     /*background-color: coral;*/
@@ -59,14 +59,25 @@ div{
     display: flex;
     align-items: center;
     margin: 10px;
-
-
 }
 .round {
     border-radius: 100px; /* Радиус скругления */
-    border: 5px double #3498db; /* Параметры рамки */
+    border: 2px double #3498db; /* Параметры рамки */
     box-shadow: 0 0 7px #666; /* Параметры тени */
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
+
+}
+.round2 {
+    width: 200px;
+    border-radius: 200px; /* Радиус скругления */
+    border: 2px double #3498db; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 12px;
+
 }
 .cell_t{
 margin: 10px;
@@ -103,6 +114,17 @@ margin: 10px;
         float: none;
     }
 }
+@media(max-device-width: 736px) {
+    #leftColumn {
+        max-width: 100%;
+        float: none;
+    }
+
+    #rightColumn {
+        max-width: 100%;
+        float: none;
+    }
+}
 .img_cell{
     max-width:64px;
     max-height:64px;
@@ -116,6 +138,9 @@ margin: 10px;
     color:#3498db;
     padding-right: 30px;
 }
+td{
+    padding-top: 20px;
+}
 .cont_skills{
     margin-left: 60px;
     padding-right: 60px;
@@ -123,17 +148,21 @@ margin: 10px;
     font-size: 15pt;
 
 }
-.sk1_e{background-image:url(../img/ball_e.png);height:15px;}
-.sk_1_f{background-image:url(../img/ball_full.png);width:79%;height:15px;}
+.skill_item{
+    text-align: center;
+    padding-right: 100px;
+}
+.sk1_e{background-image:url(../img/ball_e.png);width:270px;height:15px;text-align: center }
+.sk_1_f{background-image:url(../img/ball_full.png);width:76%;height:15px;}
 
 
-.sk_2_f{background-image:url(../img/ball_full.png);width:84%;height:15px;}
+.sk_2_f{background-image:url(../img/ball_full.png);width:83%;height:15px;}
 
 
-.sk_3_f{background-image:url(../img/ball_full.png);width:90%;height:15px;}
+.sk_3_f{background-image:url(../img/ball_full.png);width:60%;height:15px;}
 
 
-.sk_4_f{background-image:url(../img/ball_full.png);width:90%;height:15px;}
+.sk_4_f{background-image:url(../img/ball_full.png);width:68%;height:15px;}
 
 div ul li{list-style-image: url(../img/check.png);}
 ul li b {
@@ -201,6 +230,10 @@ ul li b {
 .name{
     font-size: 35pt
 }
+
+    #soft_k {
+        padding-left: 15px;
+    }
 /*image width : 2480px
     margin-left:120px
     mergin-top:60
