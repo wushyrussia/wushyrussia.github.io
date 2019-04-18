@@ -1,0 +1,243 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 35px;
+    /*background-color: blue;*/
+    font-size: 13pt;
+    min-width: 300px;
+    padding: 20px;
+}
+#container{
+    min-width: 100%;
+    /*min-height: 100%;*/
+    /*background-color: #13a500;*/
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+#leftColumn {
+    max-width: 42%;
+    /*min-height: 100%;*/
+    /*background-color: aquamarine;*/
+    float: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+#rightColumn{
+    max-width:58%;
+    /*min-height: 100%;*/
+    background-color: white;
+    float:right;
+}
+.content{
+
+    min-height: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#footer{
+
+    /*width: 100px;*/
+    /*height:100%;*/
+    /*background-color: coral;*/
+    clear:both;
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'Indie Flower', cursive;
+}
+div{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.cell_1{
+    text-align: center;
+}
+.cell{
+    margin-bottom:20px;
+}
+.cell_header{
+    font-size: 20pt;
+    font-weight: bold;
+    color:#3498db;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    border: 2px double #3498db; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    /*margin-bottom: 10px;*/
+
+}
+.round2 {
+    width: 200px;
+    border-radius: 200px; /* Радиус скругления */
+    border: 2px double #3498db; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 12px;
+
+}
+.cell_t{
+margin: 10px;
+    padding-bottom: 10px;
+}
+.line{
+    background-image: url(../img/line.png);
+   width: 99%;
+}
+#cont_l{
+    float: left;
+
+    margin-right: 30px;
+}
+#cont_r {
+}
+
+#footer img{
+    display: inline-block;
+    top: 20px;
+    position: relative;
+}
+
+.cont_cont{
+    /*padding-left: 30px;*/
+}
+@media(max-width: 736px){
+    #leftColumn{
+        max-width: 100%;
+        float: none;
+    }
+    #rightColumn{
+    max-width: 100%;
+        float: none;
+    }
+}
+@media(max-device-width: 736px) {
+    #leftColumn {
+        max-width: 100%;
+        float: none;
+    }
+
+    #rightColumn {
+        max-width: 100%;
+        float: none;
+    }
+}
+.img_cell{
+    max-width:64px;
+    max-height:64px;
+}
+.cont_cont table{
+    font-size: 13pt;
+    padding-right: 30px;
+}
+.table_skill_h{
+    font-weight: bold;
+    color:#3498db;
+    padding-right: 30px;
+}
+td{
+    padding-top: 20px;
+}
+.cont_skills{
+    margin-left: 60px;
+    padding-right: 60px;
+   text-align: center;
+    font-size: 15pt;
+
+}
+.skill_item{
+    text-align: center;
+    padding-right: 100px;
+}
+.sk1_e{background-image:url(../img/ball_e.png);width:270px;height:15px;text-align: center }
+.sk_1_f{background-image:url(../img/ball_full.png);width:76%;height:15px;}
+
+
+.sk_2_f{background-image:url(../img/ball_full.png);width:83%;height:15px;}
+
+
+.sk_3_f{background-image:url(../img/ball_full.png);width:60%;height:15px;}
+
+
+.sk_4_f{background-image:url(../img/ball_full.png);width:68%;height:15px;}
+
+div ul li{list-style-image: url(../img/check.png);}
+ul li b {
+    color:#3498db;
+}
+.black_li{
+    color:black;
+}
+.l_soft{
+    width: 45%;
+
+    float:right;
+
+}
+.r_soft{
+    width: 45%;
+
+
+
+}
+.line_e{
+    height:  15px;
+    width: 100%;
+    background-color: #cbe1ff;
+
+}
+.pers1{
+    height:  15px;
+    background-color: #3498db;
+    width: 80%;
+}
+.pers2{
+    height:  15px;
+    background-color: #3498db;
+    width: 50%;
+}
+.pers3{
+    height:  15px;
+    background-color: #3498db;
+    width: 45%;
+}
+.pers4{
+    height:  15px;
+    background-color: #3498db;
+    width: 60%;
+}
+.pers5{
+    height:  15px;
+    background-color: #3498db;
+    width: 25%;
+}
+.pers6{
+    height:  15px;
+    background-color: #3498db;
+    width: 10%;
+}
+.prof{
+    font-size: 13pt;
+    font-weight: bold;
+}
+.sur{
+    font-size: 35pt;
+    font-weight: bold;
+}
+.name{
+    font-size: 35pt
+}
+
+    #soft_k {
+        padding-left: 15px;
+    }
+/*image width : 2480px
+    margin-left:120px
+    mergin-top:60
+    120/(2480/100)=4,8% margin-left
+    2,4% margin-rigth
+    */
