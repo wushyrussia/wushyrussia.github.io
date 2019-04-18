@@ -38,6 +38,7 @@ A:active {
 A:hover {
     color: #06002e; /* Цвет ссылки при наведении на нее курсора мыши */
     text-decoration: underline; /* Добавляем подчеркивание */
+
 }
 
 .gradient {
@@ -82,7 +83,15 @@ A:hover {
     }
 }
 .new{
-    background-img: url(new.png);
+    list-style: none; /* Убираем исходные маркеры */
+    background: url(new.png) no-repeat; /* Параметры фона */
+    background-size: 25px auto;
+    padding-left: 30px; /* Смещаем текст вправо */
+}
 
-    /*background-repeat: none;*/
+.cheched{
+    list-style: none; /* Убираем исходные маркеры */
+    background: url(checked.png) no-repeat; /* Параметры фона */
+    background-size: 25px auto;
+    padding-left: 30px; /* Смещаем текст вправо */
 }

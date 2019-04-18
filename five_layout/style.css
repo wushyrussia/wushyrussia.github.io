@@ -1,0 +1,41 @@
+.container{
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 380px;
+}
+header{
+    width: 1024px;
+    height: 100px;
+    background-color: coral;
+    margin-bottom: 10px;
+}
+nav{
+    width: 190px;
+
+    background-color: #95D44F;
+}
+aside{
+    width: 190px;
+    background-color: #3498db;
+}
+ main{
+     width: 570px;
+     background-color: #fed966;
+ }
+ footer{
+     width: 1024px;
+     height: 100px;
+     background-color: #ffb6c1;
+     margin-top: 10px;
+ }
+.padding{
+    padding-left: 20px;
+}
