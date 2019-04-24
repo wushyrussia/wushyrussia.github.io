@@ -1,8 +1,10 @@
+:root{
+    font-size: 1em;
+}
 body{
     font-family: 'Open Sans Condensed', sans-serif;
     margin: 35px;
     /*background-color: blue;*/
-    font-size: 13pt;
     min-width: 300px;
     padding: 20px;
 }
@@ -114,6 +116,7 @@ margin: 10px;
     max-width: 100%;
         float: none;
     }
+    
 }
 @media(max-device-width: 736px) {
     #leftColumn {
@@ -125,13 +128,18 @@ margin: 10px;
         max-width: 100%;
         float: none;
     }
+    .l_soft .r_soft{
+        float: none;
+        width: 100px;
+    }
+
 }
 .img_cell{
     max-width:64px;
     max-height:64px;
 }
 .cont_cont table{
-    font-size: 13pt;
+    font-size: 1rem;
     padding-right: 30px;
 }
 .table_skill_h{
@@ -234,6 +242,7 @@ ul li b {
 
     #soft_k {
         padding-left: 15px;
+        font-size: 1rem;
     }
 /*image width : 2480px
     margin-left:120px

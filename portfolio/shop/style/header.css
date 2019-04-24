@@ -1,0 +1,126 @@
+
+:root{
+    font-size: 1.09em;
+}
+a {
+    text-decoration: none;
+}
+/*-----------------------------------------*/
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+header a{
+    color:#828282;
+}
+.col-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom:solid 1px #f2f2f2;
+}
+.header_phone img{
+    padding-right: 0.5em;
+    position: relative;
+    top: 4px;
+    width: 18px;
+    height: 18px;
+}
+.header_logo a{
+    color: black;
+}
+.triangle1 {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top:-10px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #bf8e54;
+}
+.triangle2{
+    position: relative;
+    top: 3px;
+    left:-44px;
+    width: 0;
+    height: 0;
+    border-left: 44px solid transparent;
+    border-right: 44px solid transparent;
+    border-bottom: 44px solid white;
+}
+.triangle3{
+font-size: 2rem;
+margin-left: -120px;
+    letter-spacing:0.2em;
+}
+.header_user-panel{
+    display: flex;
+}
+.login-reg{
+    display: flex;
+    padding-right: 1em;
+}
+pre {
+    margin-top:0em ;
+    margin-top:0.2em ;
+
+
+}
+.basket a{
+    display: flex;
+    padding-right: 1em;
+}
+.img_basket{
+    width: 18px;
+    height: 18px;
+}
+.number{
+    text-align: center;
+    font-size:0.9rem ;
+    color: white;
+    width: 18px;
+    height: 18px;
+    background-color: #c6a272;
+    border-radius: 50%;
+}
+.wish a{
+    display: flex;
+}
+.wish img{
+    position: relative;
+    top:-3px;
+}
+.wish .number{
+    color:gray;
+    background-color: #f4f5f9;
+}
+.col-bottom{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content:space-between;
+    /*background-color: #3498db;*/
+}
+.header_nav{
+    display: flex;
+    font-size: 1.1em;
+}
+.nav_btn{
+    margin-top: 4px;
+    border-bottom: 8px double #828282;
+    border-top: 3px solid #828282;
+    content:"";
+    height: 2px;
+    width:1.3em;
+
+}
+.header_nav a{
+    margin-right: 1.2em ;
+}
+.header_search img{
+    width: 18px;
+    height: 18px;
+}
