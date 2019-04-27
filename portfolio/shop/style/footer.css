@@ -1,0 +1,124 @@
+
+@import "root.css";
+footer {
+    background-color: #4a4a4a;
+    font-size: inherit;
+    font-size: 0.8em;
+
+}
+.row{
+    width: 80%;
+    display: flex;
+    justify-content:center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.footer-top-row{
+    display: flex;
+    justify-content: center;
+    background-color: #414141;
+    font-weight: bold;
+    /*text-align: center;*/
+
+}
+.footer-top-row a{
+    color:white;
+    text-decoration: none;
+}
+
+.footer-top-row .row div{
+    width:23%;
+    border-right: 1px solid #ababab;
+}
+.footer_li4{
+    border-right: none !important;
+}
+.footer_li1 img{
+    position: relative;
+    top:2px;
+    width: 1.5em;
+    height: 1em;
+    padding-right: 1em;
+}
+.footer_li2 img{
+    position: relative;
+    top:2px;
+    width: 1em;
+    height: 1em;
+    padding-right: 1em;
+}
+.footer_li3 img{
+    position: relative;
+    top:2px;
+    width: 1em;
+    height: 1em;
+    padding-right: 1em;
+}
+
+.footer_li4 img{
+    position: relative;
+    top:4px;
+    width: 1.3em;
+    height: 1.3em;
+    padding-right: 1em;
+}
+.footer_li4 a{
+    position: relative;
+    top:-4px;
+}
+.footer-center-row{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    line-height: 1.6em;
+    border-bottom: 1px solid  #ababab;
+    margin: auto;
+
+}
+.footer-center-row li{
+    list-style-type: none;
+}
+.footer-center-row a{
+    color: #ababab;
+    text-decoration: none;
+}
+.footer-center-row div{
+    padding-left: 2em;
+    padding-right: 3em;
+}
+.footer-col4 ul{
+    color:#ababab ;
+    max-width: 16em;
+}
+.head_li{
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 0.3em;
+}
+.phone_footer a{
+    color:white;
+}
+.email_footer a{
+    color:#bf8e54;
+}
+.phone_footer img {
+    width: 15px;
+    height: 15px;
+}
+.footer-bottom-row{
+    text-align:center;
+    color: #ababab;
+    font-size: 0.9em;
+    padding: 2em;
+
+}
+.footer-bottom-row a{
+    color: #ababab ;
+    text-decoration: none;
+}
+.footer-col1 ul{
+    padding-left: 0;
+}
+.footer-col4 ul{
+    padding-right: 0;
+}

@@ -1,7 +1,4 @@
-
-:root{
-    font-size: 1.09em;
-}
+@import "root.css";
 a {
     text-decoration: none;
 }
