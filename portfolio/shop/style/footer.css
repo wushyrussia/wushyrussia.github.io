@@ -141,11 +141,10 @@ footer {
 @media(max-width: 827px) {
     .footer-top-row .row div{
         width: 46%;
-    }
-    .footer_li2{
         border: none!important;
         line-height: 2em;
     }
+   
 }
 @media(max-width: 483px) {
     .footer-top-row .row div{
