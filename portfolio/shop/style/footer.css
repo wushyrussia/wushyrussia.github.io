@@ -31,6 +31,8 @@ footer {
 .footer-top-row .row div{
     width:23%;
     border-right: 1px solid #ababab;
+    margin-right: 1%;
+    margin-left: 2px;
 }
 .footer_li4{
     border-right: none !important;
