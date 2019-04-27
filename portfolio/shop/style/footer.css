@@ -1,10 +1,11 @@
 
-@import "root.css";
 
 footer {
+    max-width: 1280px;
+    margin: auto;
     background-color: #4a4a4a;
     font-size: inherit;
-    font-size: 0.8em;
+    font-size: 0.9em;
 
 }
 .row{
@@ -25,7 +26,7 @@ footer {
 
 }
 .footer-top-row a{
-    color:white;
+    color:#CBCBC1;
     text-decoration: none;
 }
 .footer-top-row .row div{
@@ -99,12 +100,12 @@ footer {
     max-width: 16em;
 }
 .head_li{
-    color: white;
+    color: #CBCBC1;
     font-size: 1.1rem;
     padding-bottom: 0.3em;
 }
 .phone_footer a{
-    color:white;
+    color:#CBCBC1;
 }
 .email_footer a{
     color:#bf8e54;
@@ -130,34 +131,3 @@ footer {
 .footer-col4 ul{
     padding-right: 0;
 }
-@media(max-width: 885px) {
-    .footer-center-row div {
-        width: 43%;
-    }
-    .footer-col3 ul {
-        padding-left: 0;
-    }
-}
-@media(max-width: 827px) {
-    .footer-top-row .row div{
-        width: 46%;
-        border: none!important;
-        line-height: 2em;
-    }
-
-}
-@media(max-width: 483px) {
-    .footer-top-row .row div{
-        width: 80%;
-        text-align: center;
-        border: none!important;
-        line-height: 2em;
-    }
-    .footer-center-row div {
-        width: 80%;
-        text-align: center;
-    }
-    .footer-center-row ul {
-        padding-left: 0;
-    }
-    }

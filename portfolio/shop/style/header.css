@@ -1,6 +1,7 @@
 @import "root.css";
 a {
     text-decoration: none;
+    color:#828282;
 }
 /*-----------------------------------------*/
 body{
@@ -53,7 +54,8 @@ header a{
 }
 .triangle3{
 font-size: 2rem;
-margin-left: -120px;
+  padding-top:10px;
+margin-left: -105px;
     letter-spacing:0.2em;
 }
 .header_user-panel{
@@ -126,44 +128,4 @@ pre {
 }
 .search_min{
     display: none;
-}
-@media(max-width: 730px){
-.header_nav{
-   display: none;
-}
-    .header_phone{
-      display: none;
-    }
-    .header_user-panel{
-        display: none;
-    }
-    .header_logo{
-      padding-left: 70px;
-    }
-    .col-bottom .header_nav-sandwich{
-        display: none;
-    }
-    .col-top .header_nav-sandwich{
-        display: block;
-    }
-    .col-top{
-        justify-content: baseline;
-    }
-    .search_min{
-        display: none;
-        padding-left: 36px;
-        background: #f2f2f2;
-        width: 100%;
-        border-radius: 25px;
-        line-height: 30px;
-    }
-    .col-bottom{
-        width: 100%;
-    }
-    .header_search img{
-        display: none;
-    }
-    header{
-        min-width: 300px;
-    }
 }
