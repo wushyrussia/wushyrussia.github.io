@@ -1,5 +1,6 @@
 .first_cell{
     display: flex;
+    flex-wrap: wrap;
     margin: 1.5em;
     font-size: 1.3rem;
 }
@@ -15,7 +16,7 @@
     justify-content: center;
     align-items: flex-end;
     padding: 1em;
-    width: 670px;
+    width: 530px;
     height: 290px;
 
 }
@@ -53,6 +54,57 @@
 .container{
     max-width: 900px;
     margin: auto;
+}
+.info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #676767;
+    font-size: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.info_item span{
+    padding: 1em;
+}
+.info_item img {
+    position: relative;
+    top:6px;
+}
+.line {
+    border-bottom: #f2f2f2 double 6px;
+    position: relative;
+    bottom: 33px;
+    display: flex;
+    justify-content: center;
+}
+.arrival_header-text{
+    width: 270px;
+    padding: 1em;
+    position: relative;
+    top:33px;
+    background-color: white;
+    font-size: 1.5rem;
+}
+.latest_category{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -14px;
+    top: -8px;
+    font-size: 1.2rem;
+}
+.latest_item1{
+    color:#c99f6f;
+}
+.latest_container_clothes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.img_item{
+    width: 170px;
 }
 @media (max-width: 1023px) {
     .container{
