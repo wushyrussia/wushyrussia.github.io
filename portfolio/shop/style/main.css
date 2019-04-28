@@ -103,9 +103,125 @@
     flex-wrap: wrap;
 
 }
-.img_item{
-    width: 170px;
+.latest_clothes_item{
+    margin: 1em;
 }
+.img_item img{
+    width: 170px;
+    height: 226.66px;
+}
+.name_item{
+    text-align: center;
+}
+.rating_item{
+    position: relative;
+    left:10px;
+    width: 130px;
+    background-image: url(../img/star_empty.png);
+    margin: 1em;
+    height: 18px;
+}
+.rating_item pre{
+    height: 18px;
+    text-align: center;
+}
+.price_item{
+    text-align: center;
+    font-weight: bold;
+}
+.star_full{
+    width: 104px;
+    background-image: url(../img/star_full.png);
+}
+.img_left_soft{
+    width: 20px;
+    height: 20px;
+    padding-left: 1em;
+    padding-right: 0.8em;
+}
+.img_right_soft{
+    transform: scale(-1,1);
+    width: 20px;
+    height: 20px;
+    padding-left: 0.8em;
+    padding-right: 1em;
+
+}
+.line_soft div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 27.5px;
+    left:-16px;
+    width: 90px;
+    background-color:white;
+}
+.line_soft{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    width:100%;
+    border-bottom: #f2f2f2 solid 2px;
+}
+.male_female{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+.for_men{
+    margin: 1em;
+    background-color: #f4f4f4;
+    height: 212px;
+    width: 45%;
+    min-width:245px;
+    background-image: url(../img/for_men.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.for_woman{
+    width: 45%;
+    margin: 1em;
+    background-color: #f4f4f4;
+    height: 212px;
+    background-image: url(../img/for_girls.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.grey_info_btn{
+    height: 30px;
+    width: 85px;
+    min-width: 80px;
+    background-color: #626262;
+    color: #b4b4b4;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 60px;
+    margin-left:1em ;
+}
+.name_cat{
+    color: #4a4a4a;
+    font-size: 1.3rem;
+    padding: 0.7em;
+}
+.col_season{
+    color: #b2b2b2;
+    padding-left: 1em ;
+}
+.border_male-female{
+    margin: 6px;
+    height: 195px;
+    border: white 3px solid;
+    position: relative;
+
+    /*left: 7px;*/
+}
+.border_man{}
 @media (max-width: 1023px) {
     .container{
         width: 100%;
@@ -206,5 +322,45 @@
 @media (max-width: 383px) {
     .hat , .hat2, .boot{
         background-size: 75%;
+    }
+}
+@media(max-width: 413px){
+    .latest_clothes_item{
+        display: block;
+        margin: auto;
+        padding: 1em;
+    }
+}
+@media(max-width: 812px){
+    .male_female{
+        display: block;
+        width: 90%;
+    }
+    .for_woman, .for_men{
+        width: 90%;
+    }
+    .name_cat,.col_season,.grey_info_btn{
+        margin-left: 10vh;
+        padding-left: 0;
+    }
+    .border_male-female{
+        top:5px;
+    }
+}
+@media(max-width: 493px){
+    .name_cat,.col_season,.grey_info_btn{
+        margin-left: 1vh;
+        padding-left: 0;
+    }
+}
+@media(max-width: 428px){
+    .for_men,.for_woman{
+        background-image: none;
+    }
+        .border_male-female{
+            border: none;
+        }
+    .name_cat,.col_season,.grey_info_btn{
+        margin-left: 30%;
     }
 }
