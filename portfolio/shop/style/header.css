@@ -129,3 +129,10 @@ pre {
 .search_min{
     display: none;
 }
+a:link{}
+a:visited{}
+a:focus{}
+header a:hover{
+    color:black;
+}
+a:active{}

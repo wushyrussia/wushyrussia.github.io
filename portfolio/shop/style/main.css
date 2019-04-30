@@ -54,6 +54,8 @@
 .container{
     max-width: 900px;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .info{
     width: 100%;
@@ -85,6 +87,7 @@
     top:33px;
     background-color: white;
     font-size: 1.5rem;
+    text-align: center;
 }
 .latest_category{
     display: flex;
@@ -363,4 +366,42 @@
     .name_cat,.col_season,.grey_info_btn{
         margin-left: 30%;
     }
+}
+a:link{}
+a:visited{}
+a:focus{}
+div a:hover{
+    color:black;
+}
+a:active{}
+.view_clothes_button{
+    display: flex;
+    justify-content: space-between;
+    width: 126px;
+    margin:auto;
+    position: relative;
+    bottom: 45px;
+    display: none;
+
+}
+.img_item:hover + .view_clothes_button{
+    display: flex;
+}
+.add_to_wish:hover + .view_clothes_button,.add_to_basket:hover+ .view_clothes_button,.view_item:hover + .view_clothes_button{
+    display: flex;
+}
+.add_to_basket{
+    background-image: url(../img/btn_add_basket.png);
+    width: 35px;
+    height: 35px;
+}
+.add_to_wish{
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/btn_add_wish.png);
+}
+.view_item{
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/btn_big-size.png);
 }
