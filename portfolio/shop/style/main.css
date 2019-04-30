@@ -21,6 +21,9 @@
 
 
 }
+.hat:hover a{
+    color: #cb997f;
+}
 .hat .brand{
     padding-right: 5em;
 }
@@ -35,6 +38,9 @@
     padding: 2em;
 
 }
+.hat2:hover a{
+    color: #cb997f;
+}
 
 .boot{
     background-color: #f4f4f4;
@@ -46,6 +52,9 @@
     padding: 2em;
     margin-left: 1em;
     margin-bottom: 0.9em;
+}
+.boot:hover a{
+    color: #cb997f;
 }
 .category{
     max-width: 1280px;
@@ -201,12 +210,22 @@
     width: 85px;
     min-width: 80px;
     background-color: #626262;
-    color: #b4b4b4;
+    color: #2c2c2c;
     border: none;
     cursor: pointer;
     position: relative;
     top: 60px;
     margin-left:1em ;
+}
+.for_woman:hover .grey_info_btn{
+    background-color: #3a3a3a;
+    color: #8e8e8e;
+
+}
+.for_men:hover .grey_info_btn{
+    background-color: #3a3a3a;
+    color: #8e8e8e;
+
 }
 .name_cat{
     color: #4a4a4a;
@@ -388,16 +407,13 @@ a:active{}
     position: relative;
     bottom: 45px;
    opacity: 0;
-    transition: opacity .3s;
 
 }
 .img_item:hover +.view_clothes_button{
     opacity:1;
-    transition:opacity .3s;
 }
 .view_clothes_button:hover{
     opacity:1;
-    transition:opacity .3s;
 }
 .add_to_basket{
     background-image: url(../img/btn_add_basket.png);
