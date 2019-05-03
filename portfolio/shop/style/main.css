@@ -435,3 +435,68 @@ a:active{}
         justify-content: center;
     }
 }
+footer a:hover{
+    color: white;
+}
+.about_main{
+    /*width: 100px;*/
+    border: 5px #f2f2f2 solid ;
+    margin-bottom: 6em;
+    margin-top: 4em;
+}
+.about_container{
+    border: 3px #f2f2f2 solid ;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em;
+    padding: 2em;
+}
+.about_left{
+    width: 20%;
+    background-image: url(../img/about_main_l.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+/*padding-right: 15vh;*/
+}
+.about_left_in-1{
+    text-align: left;
+    color: black;
+    font-size: 1.5rem;
+    padding-bottom: 0.5em;
+}
+.about_left_in-2{
+    width: 2rem;
+    border-bottom: #c7a085 2px solid;
+}
+.about_center{
+    width: 55%;
+}
+.about_center_text{
+    text-align: left;
+    line-height: 1.5em;
+}
+.about_right{
+    width: 20% ;
+    background-image: url(../img/about_main_r.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.about_center-bot_panel{
+    display: flex;
+    /*justify-content: center;*/
+}
+.block_btn-img1{
+    background-image: url(../img/vk_icon.png);
+    width: 32px;
+    height: 24px;
+}
+.block_btn-img2{
+    background-image: url(../img/fb_icon.png);
+    width: 32px;
+    height: 24px;
+}
+.block_btn-img3{
+    background-image: url(../img/tw_icon.png);
+    width: 32px;
+    height: 24px;
+}
