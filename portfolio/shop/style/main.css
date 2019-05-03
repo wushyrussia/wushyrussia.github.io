@@ -1,3 +1,8 @@
+body{
+    font-size: 1em;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif, SimSun;
+    color:#4a4a4a;
+}
 .first_cell{
     display: flex;
     flex-wrap: wrap;
@@ -16,7 +21,7 @@
     justify-content: center;
     align-items: flex-end;
     padding: 1em;
-    width: 530px;
+    width: 520px;
     height: 290px;
 
 
@@ -35,7 +40,8 @@
     height: 80px;
     width: 170px;
     margin-left: 1em;
-    padding: 2em;
+    padding: 1.8em;
+    padding-bottom: 1.9em;
 
 }
 .hat2:hover a{
@@ -49,8 +55,9 @@
     background-position: bottom right;
     height: 80px;
     width: 170px;
-    padding: 2em;
+    padding: 1.8em;
     margin-left: 1em;
+    padding-bottom: 1.9em;
     margin-bottom: 0.9em;
 }
 .boot:hover a{
@@ -96,7 +103,7 @@
     position: relative;
     top:33px;
     background-color: white;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 .latest_category{
@@ -110,7 +117,7 @@
 .latest_item1{
     color:#c99f6f;
 }
-.latest_container_clothes{
+.container_clothes{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -119,9 +126,13 @@
 .latest_clothes_item{
     margin: 1em;
 }
+.img_item{
+    padding-top: 1em;
+}
 .img_item img{
     width: 170px;
     height: 226.66px;
+
 }
 .name_item{
     text-align: center;
@@ -347,9 +358,17 @@
         font-size: 0.8rem;
     }
 }
-@media (max-width: 383px) {
+@media (max-width: 450px) {
     .hat , .hat2, .boot{
-        background-size: 75%;
+        background-size: 65%;
+    }
+    .brand and .item_brand{
+        margin-top: 10px;
+    }
+}
+@media(max-width: 370px){
+    .hat , .hat2, .boot{
+        background-size: 60%;
     }
 }
 @media(max-width: 413px){
@@ -483,6 +502,7 @@ footer a:hover{
 }
 .about_center-bot_panel{
     display: flex;
+    padding-top: 2em;
     /*justify-content: center;*/
 }
 .block_btn-img1{
@@ -499,4 +519,82 @@ footer a:hover{
     background-image: url(../img/tw_icon.png);
     width: 32px;
     height: 24px;
+}
+.bot_panel-block_btn{
+    display:flex;
+    padding-left: 0.7em;
+}
+.block_btn-ch{
+    background-color: #f4f4f4;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+@media(max-width: 400px){
+    .header_logo{
+       padding-left: 10vh;
+
+    }
+}
+@media(max-width: 910px){
+    .about_right{
+        display: none;
+    }
+    .about_center{
+        width: auto;
+    }
+    .about_left{
+        padding-right: 1em;
+    }
+}
+@media (max-width: 690px) {
+    .about_left{
+        display: none;
+    }
+    :root{
+        font-size:0.8em;
+    }
+}
+@media(max-width: 432px){
+    .bot_panel-text{
+        display: none;
+    }
+    .about_center-bot_panel{
+     display: block;
+        text-align: center;
+    }
+    .bot_panel-block_btn{
+        padding: 0.5em;
+
+    }
+}
+.latest_clothes_item span{
+    padding-bottom:1em ;
+
+}
+.latest_clothes_item span a{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+.btn_back{
+    background-image: url(../img/arrow.png);
+    width: 21px;
+    height: 35px;
+    margin-right: 128px;
+}
+.btn_next{
+    background-image: url(../img/arrow.png);
+    width: 21px;
+    height: 35px;
+    transform: scale(-1,1);
+}
+.back_next_btn{
+    display: flex;
+    position: relative;
+    bottom:170px;
+    padding: 0;
+    margin: 0;
 }
