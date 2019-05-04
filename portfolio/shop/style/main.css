@@ -119,8 +119,8 @@ body{
 }
 .container_clothes{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 .latest_clothes_item{
@@ -460,7 +460,6 @@ footer a:hover{
 .about_main{
     /*width: 100px;*/
     border: 5px #f2f2f2 solid ;
-    margin-bottom: 6em;
     margin-top: 4em;
 }
 .about_container{
@@ -550,11 +549,14 @@ footer a:hover{
     }
 }
 @media (max-width: 690px) {
+    .about_container{
+        display: block;
+    }
     .about_left{
-        display: none;
+        background-image: none;
     }
     :root{
-        font-size:0.8em;
+        font-size:0.9em;
     }
 }
 @media(max-width: 432px){
@@ -562,8 +564,10 @@ footer a:hover{
         display: none;
     }
     .about_center-bot_panel{
-     display: block;
-        text-align: center;
+     display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
     }
     .bot_panel-block_btn{
         padding: 0.5em;
@@ -594,7 +598,92 @@ footer a:hover{
 .back_next_btn{
     display: flex;
     position: relative;
-    bottom:170px;
+    top:170px;
     padding: 0;
     margin: 0;
+}
+.img_mark_new{
+    width: 36px;
+    height: 36px;
+    background-image: url(../img/new_mark.png);
+}
+.img_mark_sale{
+    width: 36px;
+    height: 36px;
+    background-image: url(../img/sale_mark.png);
+}
+.img_mark_best{
+    width: 36px;
+    height: 36px;
+    background-image: url(../img/best_mark.png);
+}
+.mark{
+    position: relative;
+    top:115px;
+    left: 10px;
+    margin: 0;
+}
+.invisible{
+    visibility: hidden;
+}
+.brand_img_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+}
+.brand_img_container img{
+    margin:auto;
+}
+.first_cell_mango{
+    margin: 1.5em;
+    font-size: 1.3rem;
+}
+.mango{
+    height: 221px;
+    background-color: #f4f4f4;
+    background-image: url(../img/mango1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+.calambetta{
+    background-color: #f4f4f4;
+    background-image: url("../img/calambeta.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 90px;
+    width: 36%;
+    margin-left: 1em;
+    padding: 1.8em;
+    padding-bottom: 1.9em;
+
+}
+.hat2:hover a{
+    color: #cb997f;
+}
+
+.jeans_blue{
+    background-color: #f4f4f4;
+    background-image: url("../img/odji_blue.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 90px;
+    width: 35%;
+    padding: 1.8em;
+    margin-left: 1em;
+    padding-bottom: 1.9em;
+    margin-bottom: 0.9em;
+}
+.boot:hover a{
+    color: #cb997f;
+}
+.second_cell{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
