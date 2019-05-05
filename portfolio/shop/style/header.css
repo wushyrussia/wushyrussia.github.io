@@ -1,12 +1,14 @@
-@import "root.css";
+
 a {
     text-decoration: none;
     color:#828282;
 }
 /*-----------------------------------------*/
-body{
-    /*margin-left: 200px;*/
-    /*margin-right: 200px;*/
+header{
+    max-width: 900px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 header a{
     color:#828282;
