@@ -205,3 +205,11 @@
     border: none;
     height: 100px;
 }
+@media(max-width: 415px){
+    .comment_item{
+        flex-wrap: wrap;
+    }
+    .like_item_block{
+        margin-bottom: 2em;
+    }
+}
