@@ -1,0 +1,150 @@
+.line{
+    position: initial;
+    justify-content: space-between;
+}
+
+.item_in_order{
+    width: 100%;
+}
+.img_clothes_item{
+    margin: 2em;
+    margin-left: 0;
+}
+.img_clothes_item img{
+    width: 120px;
+    height: 167px;
+}
+.item_in_basket{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    line-height: 1.5em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 1em;
+}
+.delete_item{
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/delete_item.png);
+}
+.delete_item:hover{
+    background-image: url(../img/delete_item_hover.png);
+}
+.after_line_basket{
+    display: flex;
+    justify-content: space-between;
+}
+.line_descr{
+    margin-left: 3em;
+}
+.input_field input{
+    background-color: #f4f4f4;
+    border: none;
+    height: 2em;
+    width: 100%;
+    padding-right: 1em;
+    margin-bot: 1 !important;
+    /*padding-left: 1em;*/
+}
+.priv_inf_field{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 4em;
+}
+.way_payment_var{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.button_way{
+    border: 3px #f4f4f4 solid;
+    height: 78px;
+    width: 190px;
+    margin: 1em;
+    margin-right: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_way:hover{
+    background-color:#f4f4f4;
+    border: #e5e5e5 2px solid;
+    border-bottom:#c19663 2px solid;
+}
+.payment_way_active{
+    background-color:#f4f4f4;
+    border: #e5e5e5 2px solid;
+    border-bottom:#c19663 2px solid;
+}
+
+
+
+
+
+
+
+/* -- quantity box -- */
+
+.quantity {
+    display: inline-block; }
+
+.quantity .input-text.qty {
+    width: 35px;
+    height: 33px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+}
+
+.quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; }
+
+.quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+}
+
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    height: 35px;
+    background-color: #f4f4f4;
+    border: 1px solid #efefef;
+    cursor:pointer;}
+
+.quantity.buttons_added .minus {
+    border-right: 0; }
+
+.quantity.buttons_added .plus {
+    border-left: 0; }
+
+.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+    background: #8d8d8d; }
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+
+.quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+    outline: none; }
+.minus, .plus{
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+.quantity input{
+
+}
+

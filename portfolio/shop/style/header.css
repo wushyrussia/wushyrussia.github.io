@@ -121,6 +121,10 @@ pre {
     width:1.3em;
 
 }
+.nav_btn:hover{
+    border-bottom: 8px double #c6a272;
+    border-top: 3px solid #c6a272;
+}
 .header_nav a{
     margin-right: 1.2em ;
 }

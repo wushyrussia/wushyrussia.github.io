@@ -39,8 +39,8 @@ footer {
     border-right: none !important;
 }
 .footer_li1 img{
-    position: relative;
-    top:2px;
+    /*position: relative;*/
+    margin-top:2px;
     width: 1.5em;
     height: 1em;
     padding-right: 1em;

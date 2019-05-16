@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style/header.css" >
+    <link rel="stylesheet" href="style/footer.css" >
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/item_card.css">
+    <link rel="stylesheet" href="style/make_order.css">
+
+
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+</head>
+<body>
+<header>
+    <div class="col-top">
+        <div class="header_phone"><img src="img/phone.png" alt="">8 800 000 00 00</div>
+        <div class="header_logo">
+            <a href="">
+                <div class="triangle1">
+                    <div class="triangle2">
+                        <div class="triangle3">MODOSHOP</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="header_user-panel">
+            <div class="login-reg"><a href="">Вход</a><pre> / </pre><a href="">Регистрация</a></div>
+            <div class="basket"><a href=""><img src="img/basket.png" alt="" class="img_basket"><div class="number"><span>2</span></div></a></div>
+            <div class="wish"><a href=""><img src="img/wish.png" alt=""><div class="number"><span>2</span></div></a></div>
+        </div>
+        <div class="header_nav-sandwich">
+            <div class="nav_btn"></div>
+        </div>
+    </div>
+    <div class="col-bottom">
+        <div class="header_nav-sandwich">
+        </div>
+        <div class="header_nav">
+            <a href="">Женщинам</a>
+            <a href="">Мужчинам</a>
+            <a href="">Обувь</a>
+            <a href="">Аксессуары</a>
+            <a href="">Бренды</a>
+            <a href="">Рапродажа</a>
+        </div>
+
+        <div class="header_search"><img src="img/search.png" alt="">
+            <input class="search_min" disabled="" type="text" placeholder=" Я ищу... ">
+        </div>
+    </div>
+</header>
+<div class="category"><br>Оформление заказа</div>
+<div class="container">
+    <div class="item_in_order">
+       <span class="f_bold"> <h3>Товары в корзине</h3></span>
+        <div class="after_line_basket marg_2em_top">
+<span class="marg_2em_right">Товар</span><span class="line_descr " >Описание</span><span class="" >Количество</span><span>Сумма</span><span> </span>
+        </div>
+    <div class="line marg_1em_top"> </div>
+        <div class="item_in_basket brd_bot">
+            <div class="img_clothes_item"><img src="img/mod3.png" alt=""></div>
+            <div class="descript_in_basket  marg_1em_top">
+                <div class="title_item_basket f_bold">Джемпер odjii</div>
+                <div class="color_item_basket">Цвет: черный</div>
+                <div class="size_item_basket">Размер: 102</div>
+            </div>
+            <div class="number_of_item_basket marg_2em_right">
+                <div class="quantity buttons_added">
+                <input type="button" value="&ndash;" class="minus f_bold"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="&#10010;" class="plus ">
+            </div>
+            </div>
+            <div class="price_in_basket f_bold">2 300р.</div>
+            <div class="delete_item"></div>
+        </div>
+        <div class="item_in_basket brd_bot">
+            <div class="img_clothes_item"><img src="img/mod2.png" alt=""></div>
+            <div class="descript_in_basket marg_1em_right marg_1em_top">
+                <div class="title_item_basket f_bold">Джемпер odjii</div>
+                <div class="color_item_basket">Цвет: черный</div>
+                <div class="size_item_basket">Размер: 102</div>
+            </div>
+            <div class="number_of_item_basket">
+                <div class="quantity buttons_added">
+                    <input type="button" value="&ndash;" class="minus f_bold"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="&#10010;" class="plus ">
+                </div>
+            </div>
+            <div class="price_in_basket f_bold">2 300р.</div>
+            <div class="delete_item"></div>
+        </div>
+    </div>
+    <div class="private_info_order">
+        <span class="f_bold"> <h3>Личная информация</h3></span>
+        <div class="priv_inf_field">
+            <div class="input_field marg_2em_left"><br>Имя <br><input type="text" class="marg_1em_top"></div>
+            <div class="input_field marg_2em_left"><br>Телефон <br><input type="text" class="marg_1em_top"></div>
+            <div class="input_field marg_2em_left"><br>E-mail <br><input type="text" class="marg_1em_top"></div>
+        </div>
+    </div>
+    <div class="way_delivery marg_2em_top marg_2em_bot">
+        <span class="f_bold "> <h3>Способ доставки</h3></span>
+
+        <div class="priv_inf_field marg_1em_bot">
+            <div class="input_field marg_2em_left marg_1em_top"><br>Город<br><input type="text" class="marg_1em_top"></div>
+            <div class="input_field marg_2em_left marg_1em_top"><br>Индекс<br><input type="text" class="marg_1em_top"></div>
+            <div class="input_field marg_2em_left invisible"><br>Индекс<br><input type="text" class="marg_1em_top"></div>
+        </div>
+        <span class="">Адрес</span>
+        <textarea class="textarea_1 marg_1em_top"></textarea>
+    </div>
+    <div class="way_payment">
+        <span class="f_bold "> <h3>Способ оплаты</h3></span>
+    </div>
+    <div class="way_payment_var">
+        <div class="button_way payment_way_active">Наличными</div>
+        <div class="button_way">Visa/Master Card</div>
+        <div class="button_way">PayPal</div>
+    </div>
+    <textarea class="textarea_1 marg_2em_bot" ></textarea><br>
+
+    <input type="submit" class="btn_or">
+</div>
+<footer>
+    <div class="footer-top-row">
+        <div class="row">
+            <div class="footer_li1"><a href="https://vk.com"><img src="img/vk.png" alt=""> VKONTAKTE</a></div>
+
+            <div class="footer_li2"><a href="https://facebook.com"><img src="img/facebook.png" alt="">FACEBOOK</a></div>
+
+            <div class="footer_li3"><a href="https://twitter.com"><img src="img/twitter.png" alt="">TWITTER</a></div>
+
+            <div class="footer_li4"><a href="https://ok.ru"><img src="img/odk.png" alt="">ODNOKLASSNIKI</a></div>
+        </div>
+    </div>
+    <div class="footer-center-row">
+        <div class="footer-col1">
+            <ul>
+                <li class="head_li">Покупателям</li>
+                <li><a href="">Акции</a></li>
+                <li><a href="">Подарочные карты</a></li>
+                <li><a href="">Вопросы и ответы</a></li>
+                <li><a href="">Отзывы</a></li>
+                <li><a href="">Задать вопрос</a></li>
+            </ul></div>
+        <div class="footer-col2">
+            <ul>
+                <li class="head_li">О компании</li>
+                <li><a href="">О нас</a></li>
+                <li><a href="">Новости</a></li>
+                <li><a href="">Вакансии</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="footer-col3">
+            <ul>
+                <li class="head_li">Информация</li>
+                <li><a href="">Гарантия качества</a></li>
+                <li><a href="">Доставка</a></li>
+                <li><a href="">Оплата</a></li>
+            </ul>
+        </div>
+        <div class="footer-col4">
+            <ul>
+                <li class="head_li">Контакты</li>
+                <li class="phone_footer"><a href="tel: +78000000000"><img src="img/phone_white.png" alt=""> 8 800 000 00 00</a></li>
+                <li class="phone_footer"><a href="tel: +74950000000"><img src="img/phone_white.png" alt=""> 8 495 000 00 00</a></li>
+                <li class="email_footer">E-mail адрес:<a href="mailto: info@domain.ru"> info@domain.ru</a></li>
+                <li>134023, г.Москва, ул. Мясницкая, д.1, офис 330</li>
+                <li><a href=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom-row">
+        <a href="http://geoorg.dev">&copy; Geoorg.dev</a>
+    </div>
+</footer>
+</body>
+</html>
