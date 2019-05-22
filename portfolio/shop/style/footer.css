@@ -46,30 +46,29 @@ footer {
     padding-right: 1em;
 }
 .footer_li2 img{
-    position: relative;
-    top:2px;
+    /*position: relative;*/
+    margin-top:2px;
     width: 1em;
     height: 1em;
     padding-right: 1em;
 }
 .footer_li3 img{
-    position: relative;
-    top:2px;
+    /*position: relative;*/
+    margin-top:2px;
     width: 1em;
     height: 1em;
     padding-right: 1em;
 }
 
 .footer_li4 img{
-    position: relative;
-    top:4px;
+    /*position: relative;*/
+    margin-top:2px;
     width: 1.3em;
     height: 1.3em;
     padding-right: 1em;
 }
 .footer_li4 a{
-    position: relative;
-    top:-4px;
+    margin-top:-4px;
 }
 .footer-center-row{
     width: 80%;
