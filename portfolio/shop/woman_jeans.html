@@ -12,43 +12,151 @@
     <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
-<header>
-    <div class="col-top">
-        <div class="header_phone"><img src="img/phone.png" alt="">8 800 000 00 00</div>
-        <div class="header_logo">
-            <a href="">
-                <div class="triangle1">
-                    <div class="triangle2">
-                        <div class="triangle3">MODOSHOP</div>
-                    </div>
+<div class="col-top">
+    <div class="header_phone"><img src="img/phone.png" alt="">8 800 000 00 00</div>
+    <div class="header_logo">
+        <a href="">
+            <div class="triangle1">
+                <div class="triangle2">
+                    <div class="triangle3">MODOSHOP</div>
                 </div>
-            </a>
+            </div>
+        </a>
+    </div>
+    <div class="header_user-panel">
+        <div class="login-reg"><a href="">Вход</a><pre> / </pre><a href="">Регистрация</a></div>
+        <div class="basket dis_flex marg_0_5em_right"> <i class=" nav-icon ">&#xe802;</i><div class="number"><span>2</span></div></div>
+        <div class="cart_on_click">
+            <div class="sidebar-mask"></div>
+            <div class="cart_on_click-title">В вашей корзине <span id="cart_quantity_item">2</span> товара</div>
+            <div class="cart_on_click-body">
+            <div class="cart_item df_sb df_ai_c">
+                <div class="img_clothes_item"><img src="img/mod3.png" alt=""></div>
+                   <div class="descript_in_basket  marg_1em_top  marg_2em_right">
+                    <div class="title_item_basket marg_0_5em_bot">Джемпер odjii</div>
+                    <div class="price_in_basket ">2 300р.</div>
+                    </div>
+                <div class="delete_item marg_1em_right"></div></div>
+                <div class="cart_item df_sb df_ai_c">
+                    <div class="img_clothes_item"><img src="img/mod3.png" alt=""></div>
+                    <div class="descript_in_basket  marg_1em_top  marg_2em_right">
+                        <div class="title_item_basket marg_0_5em_bot">Джемпер odjii</div>
+                        <div class="price_in_basket ">2 300р.</div>
+                    </div>
+                    <div class="delete_item marg_1em_right"></div></div>
+                <div class="cart_item df_sb df_ai_c">
+                    <div class="img_clothes_item"><img src="img/mod3.png" alt=""></div>
+                    <div class="descript_in_basket  marg_1em_top  marg_2em_right">
+                        <div class="title_item_basket marg_0_5em_bot">Джемпер odjii</div>
+                        <div class="price_in_basket ">2 300р.</div>
+                    </div>
+                    <div class="delete_item marg_1em_right"></div></div>
+            </div>
+            <div class="cart_on_click-footer">
+              <div class="df_sb">  Итого, без учета доставки: &ensp; <span id="cart_on_click-price"> 7000 руб</span> </div>
+                <div class="submit-cart ">Оформить  заказ</div>
+            </div>
         </div>
-        <div class="header_user-panel">
-            <div class="login-reg"><a href="">Вход</a><pre> / </pre><a href="">Регистрация</a></div>
-            <div class="basket"><a href=""><img src="img/basket.png" alt="" class="img_basket"><div class="number"><span>2</span></div></a></div>
-            <div class="wish"><a href=""><img src="img/wish.png" alt=""><div class="number"><span>2</span></div></a></div>
-        </div>
-        <div class="header_nav-sandwich">
-            <div class="nav_btn"></div>
+        <div class="wish dis_flex"><i class=" nav-icon ">&#xe801;</i><div class="number"><span>2</span></div></div>
+        <div class="wish_on_click">
+            <div class="sidebar-mask"></div>
+            <div class="cart_on_click-title">В вашем избранном <span id="cart_quantity_item">2</span> товара</div>
+            <div class="cart_on_click-body">
+                <div class="cart_item df_sb df_ai_c">
+                    <div class="img_clothes_item"><img src="img/mod3.png" alt=""></div>
+                    <div class="descript_in_basket  marg_1em_top  marg_2em_right">
+                        <div class="title_item_basket marg_0_5em_bot">Джемпер odjii</div>
+                        <div class="price_in_basket ">2 300р.</div>
+                    </div>
+                    <div class="delete_item marg_1em_right"></div></div>
+                <div class="cart_item df_sb df_ai_c">
+                    <div class="img_clothes_item"><img src="img/mod3.png" alt=""></div>
+                    <div class="descript_in_basket  marg_1em_top  marg_2em_right">
+                        <div class="title_item_basket marg_0_5em_bot">Джемпер odjii</div>
+                        <div class="price_in_basket ">2 300р.</div>
+                    </div>
+                    <div class="delete_item marg_1em_right"></div></div>
+                <div class="cart_item df_sb df_ai_c">
+                    <div class="img_clothes_item"><img src="img/mod3.png" alt=""></div>
+                    <div class="descript_in_basket  marg_1em_top  marg_2em_right">
+                        <div class="title_item_basket marg_0_5em_bot">Джемпер odjii</div>
+                        <div class="price_in_basket ">2 300р.</div>
+                    </div>
+                    <div class="delete_item marg_1em_right"></div></div>
+            </div>
+            <div class="cart_on_click-footer">
+
+                <div class="submit-cart ">Перейти в избранное</div>
+            </div>
         </div>
     </div>
-    <div class="col-bottom">
-        <div class="header_nav-sandwich">
+    <div class="header_nav-sandwich">
+        <div class="nav_btn"></div>
+        <div class="nav_click_block nav_click_block_mobile">
+
+            <div class="nav_menu_sandwich">
+                <div class="nav_head_img"><img src="img/nav_logo.png" alt=""></div>
+                <div class="nav_icon_mobile">
+                    <div class="nav_item_ "><a href=""><i class=" nav-icon ">&#xe802;</i>  </a></div>
+                    <div class="nav_item_ ">  <a href=""><i class=" nav-icon ">&#xe801;</i> </a></div>
+                    <div class="nav_item_ "><a href=""> <i class=" nav-icon ">&#xe803;</i>  </a></div>
+                </div>
+                <span class="marg_2em_bot"> <pre > <!--class="marg_2em_bot"--> </pre></span>
+                <hr>
+                <a href="">Женщинам</a>
+                <hr>
+                <a href="">Мужчинам</a>
+                <hr>
+                <a href="">Обувь</a>
+                <hr>
+                <a href="">Аксессуары</a>
+                <hr>
+                <a href="">Бренды</a>
+                <hr>
+                <a href="">Рапродажа</a>
+                <br><br>
+
+            </div>
+
+            <div class="sidebar-mask"></div>
         </div>
-        <div class="header_nav">
-            <a href="">Женщинам</a>
-            <a href="">Мужчинам</a>
-            <a href="">Обувь</a>
-            <a href="">Аксессуары</a>
-            <a href="">Бренды</a>
-            <a href="">Рапродажа</a>
+    </div>
+</div>
+<header>
+<div class="col-bottom">
+    <div class="header_nav-sandwich">
+        <div class="nav_btn"></div>
+
+        <div class="nav_click_block">
+
+            <div class="nav_menu_sandwich">
+                <div class="nav_head_img"><img src="img/nav_logo.png" alt=""></div>
+                <span class="marg_2em_bot"> <pre > <!--class="marg_2em_bot"--> </pre></span>
+
+                <hr><div class="nav_item_ dis_flex marg_2em_left"> <i class=" nav-icon ">&#xe802;</i>  <a href="">Корзина</a></div>
+                <hr><div class="nav_item_ dis_flex marg_2em_left"> <i class=" nav-icon ">&#xe801;</i>  <a href="">Избранное</a></div>
+                <hr><div class="nav_item_ dis_flex marg_2em_left"> <i class=" nav-icon ">&#xe803;</i>  <a href="">Контакты</a></div>
+                <hr>
+            </div>
+
+            <div class="sidebar-mask"></div>
+
         </div>
 
-        <div class="header_search"><img src="img/search.png" alt="">
-            <input class="search_min" disabled="" type="text" placeholder=" Я ищу... ">
-        </div>
     </div>
+    <div class="header_nav">
+        <a href="">Женщинам</a>
+        <a href="">Мужчинам</a>
+        <a href="">Обувь</a>
+        <a href="">Аксессуары</a>
+        <a href="">Бренды</a>
+        <a href="">Рапродажа</a>
+    </div>
+
+    <div class="header_search"><img src="img/search.png" alt="">
+        <input class="search_min" disabled="" type="text" placeholder=" Я ищу... ">
+    </div>
+</div>
 </header>
 <div class="category"><br>Женщинам<div><a href="">Главная</a> > <a href="">Женшинам</a> > <a href="">Брюки</a></div></div>
 <div class="container">
